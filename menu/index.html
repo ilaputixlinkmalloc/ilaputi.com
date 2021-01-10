@@ -1,0 +1,83 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="intro-fullscreen fixed-footer scroll-down yo-anim-enabled">
+    <div class="content-wrapper">
+        <!--content-->
+
+
+        {% include nav.html %}
+
+
+
+        <div class="section-intro" data-opacity-start="30" data-opacity-end="100"
+            data-background="/img/Nonihm-Thai.jpg">
+
+            <div class="pre-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1 class="parallax-element-first">Our Menu</h1>
+                            <p class="parallax-element-second">This is our take on Asian comfort food. Our menu is familiar yet entirely new, simple but full of surprises with huge portions and unique flavors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="arrow1 arrow-section hidden-xs" href="#">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a class="arrow2 arrow-section hidden-xs" href="#" style="">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+        <div class="section-space"></div>
+        <section id="menu" class="section-scroll main-section menu">
+            <ul class="list-category">
+                <li>
+                    <span class="filter" data-filter="all">Show all</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter=".starters">Starters</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter=".soup-salads">Soup &amp; Salads</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter=".pasta">Pasta</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter=".putis-platos">Puti's Platos</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter=".great-plates">Great Plates</span>
+                </li>
+                <li>
+                    <span class="filter" data-filter=".drinks">Drinks</span>
+                </li>
+            </ul>
+            <div class="container-fluid menu-content mixitup">
+                {% include menu-mix.html catClass="starters" category="Starters" order="1" isFirst="true" %}
+                {% include menu-mix.html catClass="soup-salads" category="Soup & Salad" order="2" %}
+                {% include menu-mix.html catClass="pasta" category="Pasta" order="3" %}
+                {% include menu-mix.html catClass="putis-platos" category="Puti's Plato" order="4" %}
+                {% include menu-mix.html catClass="great-plates" category="Great Plates" order="5" %}
+                {% include menu-mix.html catClass="drinks" category="Drinks" order="6" %}
+            </div>
+        </section>
+
+        <div id="footer-spacer"></div>
+        {% include footer.html %}
+        <div class="gallery-wrapper"></div>
+
+        {% include preloader.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>

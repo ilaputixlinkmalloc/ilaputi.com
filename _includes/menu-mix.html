@@ -1,0 +1,54 @@
+{% assign category = include.category %}
+{% assign catClass = include.catClass %}
+{% assign menuListRaw = site.data.menu %}
+{% assign isFirst = include.isFirst %}
+
+<div class="mix {{ catClass }}" data-myorder="{{ include.order }}">
+    <div class="row">
+        {% if isFirst == "true" %}
+        {% assign stickyHeader = "col-xs-12 menu-category sticky-header sticky-header first-header fixed visible" %}
+        {% else %}
+        {% assign stickyHeader = "col-xs-12 menu-category sticky-header" %}
+        {% endif %}
+        <div class="{{ stickyHeader }}">
+            <h2> {{ category }} </h2>
+        </div>
+    </div>
+    <div class="row">
+        {% assign menuList = menuListRaw | where: "category", catClass %}
+        {% for menu in menuList %}
+        <div class="menu-item">
+            {% assign imgsrc = menu.img_300 %}
+            {% assign imgdatasrc = menu.img_300 %}
+            {% assign has_img = menu.has_img %}
+
+            {% if has_img == false %}
+            {% assign imgsrc = "/img/img_300/default.png" %}
+            {% assign imgdatasrc = "/img/img_300/default.png" %}
+            {% endif %}
+
+            <a href="/img/img_300/default.png" class="open-overlay">
+                <figure>
+                    <img src="{{ imgsrc }}" data-src="{{ imgdatasrc }}" alt="Menu item" />
+                    <div class="actions">
+                        <i class="icon-magnifier-add"></i>
+                    </div>
+                </figure>
+            </a>
+            <div class="item-description">
+                <div class="">
+                    <div class="">
+                        <h6>{{ menu.name }}</h6>
+                        <p>{{ menu.short_desc }}</p>
+                        {% comment %}
+                        <span class="old-price">₱{{ menu.price }}</span>
+                        {% endcomment %}
+                        <span class="new-price item-price">₱{{ menu.price }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>

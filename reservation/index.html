@@ -1,0 +1,285 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="intro-fullscreen fixed-footer scroll-down yo-anim-enabled">
+    <div class="content-wrapper">
+        <!--content-->
+
+
+        {% include nav.html %}
+
+
+
+        <div class="section-intro section-intro-half" data-opacity-start="30" data-opacity-end="100" data-background="/img/reservation.png">
+            <div class="pre-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                            <h1 class="parallax-element-first">Book your table in advance </h1>
+                            <p class="parallax-element-second">Suspendisse pellentesque ipsum non mauris rutrum mollis. Aliquam tristique dui et nunc iaculis, id accumsan nunc eleifend.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="arrow1 arrow-section hidden-xs" href="#">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a class="arrow2 arrow-section hidden-xs" href="#" style="">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div> 
+        
+        <div class="section-space"></div>
+        <section id="reservation" class="section-scroll main-section">
+            <header class="section-header">
+                <h2>Reservation</h2>
+            </header>
+            <div class="reservation-content container">
+                <div class="row">
+                    <div class="col-sm-4 pull-right">
+                        <h4>Book your table</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. </p>
+                        <div>
+                            <h4>Opening hours</h4>
+                            <ul class="open-daily">
+                                <li>
+                                    <span class="day">Monday - Thursday</span>
+                                    <span class="hours">7.00 - 21.00</span>
+                                </li>
+                                <li>
+                                    <span class="day">Friday - Sunday</span>
+                                    <span class="hours">7.00 - 21.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 ">
+                        <div class="reservation-form row">
+                            <form role="form" name="date-reservation-form" id="date-reservation-form"
+                                action="date-reservation-send.php" method="POST" class="simform" autocomplete="off">
+                                <div class="col-md-6">
+                                    <h4>Date</h4>
+                                    <div class="row">
+                                        <div class="col-xs-4 col-md-4">
+                                            <div class="form-group">
+                                                <select id="reservation-day" class="form-control"
+                                                    name="reservation[day]">
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option value="11">11</option>
+                                                    <option value="12">12</option>
+                                                    <option value="13" selected="selected">13</option>
+                                                    <option value="14">14</option>
+                                                    <option value="15">15</option>
+                                                    <option value="16">16</option>
+                                                    <option value="17">17</option>
+                                                    <option value="18">18</option>
+                                                    <option value="19">19</option>
+                                                    <option value="20">20</option>
+                                                    <option value="21">21</option>
+                                                    <option value="22">22</option>
+                                                    <option value="23">23</option>
+                                                    <option value="24">24</option>
+                                                    <option value="25">25</option>
+                                                    <option value="26">26</option>
+                                                    <option value="27">27</option>
+                                                    <option value="28">28</option>
+                                                    <option value="29">29</option>
+                                                    <option value="30">30</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4 col-md-4">
+                                            <div class="form-group">
+                                                <select id="reservation-month" class="form-control"
+                                                    name="reservation[month]">
+                                                    <option data-name="January" value="1">January</option>
+                                                    <option selected="selected" data-name="February" value="2">February</option>
+                                                    <option data-name="March" value="3">March</option>
+                                                    <option data-name="April" value="4">April</option>
+                                                    <option data-name="May" value="5">May</option>
+                                                    <option data-name="June" value="6">June</option>
+                                                    <option data-name="July" value="7">July</option>
+                                                    <option data-name="August" value="8">August</option>
+                                                    <option data-name="September" value="9">September</option>
+                                                    <option data-name="October" value="10">October</option>
+                                                    <option data-name="November" value="11">November</option>
+                                                    <option data-name="December" value="12">December</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4 col-md-4">
+                                            <div class="form-group">
+                                                <select id="reservation-year" class="form-control"
+                                                    name="reservation[year]">
+                                                    <option selected="selected" value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Hour</h4>
+                                    <div class="row">
+                                        <div class="col-xs-4 col-md-4">
+                                            <div class="form-group">
+                                                <select id="reservation-hour" class="form-control"
+                                                    name="reservation[hour]">
+                                                    <option value="00">00</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
+                                                    <option value="08">08</option>
+                                                    <option value="09">09</option>
+                                                    <option value="10">10</option>
+                                                    <option selected="selected" value="11">11</option>
+                                                    <option value="12">12</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4 col-md-4">
+                                            <div class="form-group">
+                                                <select id="reservation-minutes" class="form-control"
+                                                    name="reservation[minutes]">
+                                                    <option selected="selected" value="00">00</option>
+                                                    <option value="05">05</option>
+                                                    <option value="10">10</option>
+                                                    <option value="15">15</option>
+                                                    <option value="20">20</option>
+                                                    <option value="25">25</option>
+                                                    <option value="30">30</option>
+                                                    <option value="35">35</option>
+                                                    <option value="40">40</option>
+                                                    <option value="45">45</option>
+                                                    <option value="50">50</option>
+                                                    <option value="55">55</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-4 col-md-4">
+                                            <div class="form-group">
+                                                <select id="reservation-ampm" class="form-control"
+                                                    name="reservation[ampm]">
+                                                    <option value="pm">pm</option>
+                                                    <option selected="selected" value="am">am</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <h4>Reservation</h4>
+                                </div>
+                                <div class="col-md-8 ">
+                                    <div class="form-group">
+                                        <select class="form-control booking-types" id="reservation-booking-type"
+                                            name="reservation[booking-type]">
+                                            <option value="Booking type">Booking type</option>
+                                            <option value="Lorem ipsum">Lorem ipsum</option>
+                                            <option value="Dolor sit amet">Dolor sit amet</option>
+                                            <option value="Proin nibh augue">Proin nibh augue</option>
+                                            <option value="Cras vel lorem">Cras vel lorem</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 ">
+                                    <div class="form-group people-amount">
+                                        <input type="text" class="form-control" id="reservation-amount"
+                                            placeholder="Amount of people" name="reservation[amount]">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="reservation-name" placeholder="Name"
+                                            name="reservation[name]">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="reservation-email"
+                                            placeholder="Email" name="reservation[email]">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group mobile-input">
+                                        <input type="tel" class="form-control" id="reservation-phone"
+                                            placeholder="Phone" name="reservation[phone]">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group message">
+                                        <textarea class="form-control input-row-2" id="reservation-message"
+                                            placeholder="Message" name="reservation[message]"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="message form-group">
+                                        <div class="input-wrapper">
+                                            <div class="captcha-input" style="padding-right: 208px">
+                                                <input class="contact-form form-control" type="text"
+                                                    placeholder="Captcha" name="reservation[captcha]"
+                                                    id="reservation-captcha" style="width: 100%;">
+                                            </div>
+                                            <div class="input-group" style="position: absolute; top: 0; right: 15px; ">
+
+
+                                                <img id="captcha" src="inc/securimage/securimage_show.php" alt="captcha"
+                                                    style="height: 40px; margin-right: 30px; border: 1px solid #ccc; ">
+                                                <button class="refresh-captcha btn btn-default"
+                                                    style="height: 40px; width: 40px; padding: 0; "><i
+                                                        class="fa fa-refresh"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group confirm-btn text-right button-submit">
+                                        <button type="submit" class="btn btn-dark button-send">CONFIRM</button>
+                                        <div class="message-success alert-success alert hidden"><i
+                                                class="fa fa-check"></i></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="footer-spacer"></div>
+        {% include footer.html %}
+        <div class="gallery-wrapper"></div>
+
+        {% include preloader.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>

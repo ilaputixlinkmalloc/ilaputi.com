@@ -1,0 +1,258 @@
+[
+    {
+      "name": "Gyu Katsu",
+      "category": "starters",
+      "short_desc": "Wagyu Steak Bites",
+      "price": 450,
+      "img_300": "/img/img_300/gyu-katsu",
+      "has_img": false
+    },
+    {
+      "name": "Mong Kok Balls",
+      "category": "starters",
+      "short_desc": "Curry Lobster Balls",
+      "price": 295,
+      "img_300": "/img/img_300/mong-kok-balls",
+      "has_img": false
+    },
+    {
+      "name": "Grassroots Sisg",
+      "category": "starters",
+      "short_desc": "A true Kapangpangan sisig using pork mask and brain, onions, calamansi and chiles, served with quail eggs dusted with umami powder.",
+      "price": 320,
+      "img_300": "/img/img_300/grassroots-sisig.png",
+      "has_img": true
+    },
+    {
+      "name": "Pork Belly Skewers",
+      "category": "starters",
+      "short_desc": "Grilled pork belly skewers with lemongrass relish, pickled carrots & onions.",
+      "price": 295,
+      "img_300": "/img/img_300/pork-belly-skewers.png",
+      "has_img": true
+    },
+    {
+      "name": "Gambas",
+      "category": "starters",
+      "short_desc": "Shrimps in garlic and extra virgin olive oil, and a side of grilled toast.",
+      "price": 350,
+      "img_300": "/img/img_300/gambas",
+      "has_img": false
+    },
+    {
+      "name": "Mango Kani",
+      "category": "soup-salads",
+      "short_desc": "Mixed fresh greens, kani, fresh mangoes, nori, carrots, red cabbage, \nsesame shoyu dressing. + add chicken.",
+      "price": 320,
+      "img_300": "/img/img_300/mango-kani",
+      "has_img": false
+    },
+    {
+      "name": "Phoenix Mandarin",
+      "category": "soup-salads",
+      "short_desc": "Mixed fresh greens, toasted cashews, mandarin orange, creamy citrus dressing.",
+      "price": 295,
+      "img_300": "/img/img_300/phoenix-mandarin",
+      "has_img": false
+    },
+    {
+      "name": "Tahina Tori",
+      "category": "soup-salads",
+      "short_desc": "Bell peppers, carrots, onions, apples, celery, pasta, red cabbage, peanuts, sesame seeds, chicken in black tahini dressing",
+      "price": 320,
+      "img_300": "/img/img_300/tahina-tori",
+      "has_img": false
+    },
+    {
+      "name": "Two Mushroom Soup",
+      "category": "soup-salads",
+      "short_desc": "Made to order, fresh Shiitaki and button mushrooms garlic, onions, cream and a side of grilled toast.",
+      "price": 295,
+      "img_300": "/img/img_300/two-mushroom-soup.png",
+      "has_img": true
+    },
+    {
+      "name": "Oyako Soup",
+      "category": "soup-salads",
+      "short_desc": "Chicken Soup",
+      "price": 295,
+      "img_300": "/img/img_300/chicken-soup",
+      "has_img": false
+    },
+    {
+      "name": "Pasimpleh",
+      "category": "pasta",
+      "short_desc": "Garlic & anchovies in extra virgin olive oil.",
+      "price": 350,
+      "img_300": "/img/img_300/pasimpleh",
+      "has_img": false
+    },
+    {
+      "name": "Tritons Treat",
+      "category": "pasta",
+      "short_desc": "Shrimps, crab fat & sticks, capers, shrimp pesto, tomatoes, toast.",
+      "price": 350,
+      "img_300": "/img/img_300/pasimpleh",
+      "has_img": false
+    },
+    {
+      "name": "Pasta Puti",
+      "category": "pasta",
+      "short_desc": "Velvety cream sauce with mushrooms and bacon, side of grilled garlic-butter toast.",
+      "price": 350,
+      "img_300": "/img/img_300/pasta-puti",
+      "has_img": false
+    },
+    {
+      "name": "Penang Plato",
+      "category": "putis-platos",
+      "short_desc": "Soy & black pepper pork tenderloin stir-fry, coconut, and dried shrimp fried rice, cucumbers, and peanut sauce.",
+      "price": 295,
+      "img_300": "/img/img_300/penang-plato.png",
+      "has_img": true
+    },
+    {
+      "name": "Salpicado",
+      "category": "putis-platos",
+      "short_desc": "Pork tenderloin in butter, garlic, and ferment sauce with mushrooms \non extra virgin olive oil garlic rice fried.",
+      "price": 295,
+      "img_300": "/img/img_300/salpicado.png",
+      "has_img": true
+    },
+    {
+      "name": "Gravy Crazy",
+      "category": "putis-platos",
+      "short_desc": "Pork tenderloin a-la-pobre on rice, mushroom gravy moat.",
+      "price": 295,
+      "img_300": "/img/img_300/gravy-crazy.png",
+      "has_img": true
+    },
+    {
+      "name": "The Other Chosilog",
+      "category": "putis-platos",
+      "short_desc": "Homemade chorizo, garlic rice, fried eggs, sour cream.",
+      "price": 295,
+      "img_300": "/img/img_300/the-other-chosilog.png",
+      "has_img": true
+    },
+    {
+      "name": "Silog Special",
+      "category": "putis-platos",
+      "short_desc": "The ubiquitous silog meal made special with pork tenderloin\nin signature sauce stir-fry, garlic rice, fried eggs.",
+      "price": 295,
+      "img_300": "/img/img_300/silog-special.png",
+      "has_img": true
+    },
+    {
+      "name": "Butterbutah",
+      "category": "putis-platos",
+      "short_desc": "Soy & butter pork tenderloin stir-fry, Japanese soy, egg, and mushroom fried rice.",
+      "price": 295,
+      "img_300": "/img/img_300/butterbutah",
+      "has_img": false
+    },
+    {
+      "name": "Butayaki",
+      "category": "putis-platos",
+      "short_desc": "Teriyaki pork tenderloin stir-fry, shredded carrots, Japanese soy & egg fried rice.",
+      "price": 295,
+      "img_300": "/img/img_300/butayaki.png",
+      "has_img": true
+    },
+    {
+      "name": "Nonihm Thai",
+      "category": "putis-platos",
+      "short_desc": "Soy & black pepper pork tenderloin stir-fry, Thai fried rice with \ngreen mangoes, shrimp paste, dried shrimps and scrambled eggs.",
+      "price": 295,
+      "img_300": "/img/img_300/nonihm-thai.png",
+      "has_img": true
+    },
+    {
+      "name": "Saigon Adobo",
+      "category": "putis-platos",
+      "short_desc": "Lemongrass & garlic pork tenderloin stir-fry, garlic & shrimp fried rice, nuoc nam.",
+      "price": 295,
+      "img_300": "/img/img_300/saigon-adobo.png",
+      "has_img": true
+    },
+    {
+      "name": "Bomb Chops",
+      "category": "great-plates",
+      "short_desc": "Bone Marrow Buttered Chops",
+      "price": 495,
+      "img_300": "/img/img_300/bomb-chops",
+      "has_img": false
+    },
+    {
+      "name": "Kimchiwa",
+      "category": "great-plates",
+      "short_desc": "Kimchi fried rice, bulgogi, bacon, fried eggs.",
+      "price": 395,
+      "img_300": "/img/img_300/kimchiwa",
+      "has_img": false
+    },
+    {
+      "name": "Sticky Char Siu Belly",
+      "category": "great-plates",
+      "short_desc": "Grilled five-spice pork belly with special char siu sauce, bok choy, \nwith garlic & ginger fried rice.",
+      "price": 375,
+      "img_300": "/img/img_300/sticky-char-siu-belly.png",
+      "has_img": true
+    },
+    {
+      "name": "Chikita Katsu",
+      "category": "great-plates",
+      "short_desc": "Panko-crusted chicken breast fillet, homemade curry, tomato & basil fried rice.",
+      "price": 375,
+      "img_300": "/img/img_300/chikita-katsu.png",
+      "has_img": true
+    },
+    {
+      "name": "Sakana Tempura",
+      "category": "great-plates",
+      "short_desc": "Beer-battered fish fillet, kani, carrots and nori salad with spiced mango dressing, sesame shoyu sauce.",
+      "price": 375,
+      "img_300": "/img/img_300/sakana-tempura.png",
+      "has_img": true
+    },
+    {
+      "name": "Bawang Bangus",
+      "category": "great-plates",
+      "short_desc": "Fried garlic milkfish, garlic fried rice, fried eggs, grilled tomatoes, quick-pickled onions, spiced vinegar.",
+      "price": "Single P350 | Full P425",
+      "img_300": "/img/img_300/bawang-bangus",
+      "has_img": false
+    },
+    {
+      "name": "Ca Ban Tui",
+      "category": "great-plates",
+      "short_desc": "Fish steamed in banana leaf with sambal tanglad, fried mushrooms and garlic and dried shrimp fried rice.",
+      "price": 395,
+      "img_300": "/img/img_300/ca-ban-tui.png",
+      "has_img": true
+    },
+    {
+      "name": "Bibimbap",
+      "category": "great-plates",
+      "short_desc": "Beef Bulgogi, carrots, mushrooms, cucumbers, gochujang rice, fried eggs.",
+      "price": "SINGLE P350 | FULL P425",
+      "img_300": "/img/img_300/bibimbap.png",
+      "has_img": true
+    },
+    {
+      "name": "Dragon Chop",
+      "category": "great-plates",
+      "short_desc": "Grilled garlic pork chop, garlic yoghurt sauce, black sesame tahini, \nherbed butter & raisin rice, mango chutney.",
+      "price": 395,
+      "img_300": "/img/img_300/dragon-chop.png",
+      "has_img": true
+    },
+    {
+      "name": "TomKatsu",
+      "category": "great-plates",
+      "short_desc": "48-hour marinated thick-cut, bone-in, breaded and fried pork chop, \nshredded red cabbage, katsu sauce, goma-dare, mustard.",
+      "price": 450,
+      "img_300": "/img/img_300/tomkatsu.png",
+      "has_img": true
+    }
+  ]

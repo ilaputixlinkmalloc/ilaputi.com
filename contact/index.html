@@ -1,0 +1,122 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="intro-fullscreen fixed-footer scroll-down yo-anim-enabled">
+    <div class="content-wrapper">
+        <!--content-->
+
+
+        {% include nav.html %}
+
+
+
+
+
+        <div class="section-intro section-intro-parallax contact-fullscreen mobile-height" data-opacity-start="30"
+            data-opacity-end="100">
+            <div class="bg-section map" id="map"></div>
+            <div class="mapMarkerColor"></div>
+            <div class="container-fluid pre-content hidden-xs">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <h1 class="parallax-element-first">We are happy to help</h1>
+                        <p class="parallax-element-second">Suspendisse pellentesque ipsum non mauris rutrum mollis.
+                            Aliquam tristique dui et nunc iaculis, id accumsan nunc eleifend. Etiam ullamcorper risus
+                            vel mollis sagittis.Praesent id lobortis quam. Ut pretium nunc at arcu elementum molestie.
+                            Morbi euismod leo ut semper fringilla.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="arrow1 arrow-section hidden-xs" href="#">
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <a class="arrow2 arrow-section hidden-xs" href="#" style="">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </div>
+
+        <div class="section-space"></div>
+
+        <section id="contact" class="section-scroll main-section">
+            <header class="section-header">
+                <h2>{{ site.name }}</h2>
+            </header>
+            <div class="contact-content container section-padding">
+                <div class="row">
+                    <div class="col-xs-12 col-md-5 v-card">
+                        <h3>Information</h3>
+                        <p style="text-align: justify;">{{ site.description }}</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h3>Address</h3>
+                                <address>
+                                    <strong>{{ site.branch_3.name }}</strong><br />
+                                    {{ site.branch_3.loc }}<br />
+                                    {{ site.branch_3.tel }}<br />
+                                    <!-- <abbr title="Phone">P:</abbr> (123) 456-7890 -->
+                                </address>
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Contact</h3>
+                                <p>
+                                    <a href="#" class="contact-email">{{ site.email }}</a><br />
+                                    <a href="tel:{{ site.tel }}">+{{ site.tel }}</a><br />
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <h3>Contact Form</h3>
+                        <form class="row" role="form" name="contact-form" id="contact-form" action="contact-send.php"
+                            method="POST">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="name" class="form-control contact-form " id="contact-name"
+                                        placeholder="Name" name="contact[name]">
+                                </div>
+                                <div class="form-group">
+                                    <input class="contact-form form-control " type="text" placeholder="Email"
+                                        name="contact[email]" id="contact-email">
+                                </div>
+                                <div class="form-group">
+                                    <input class="contact-form form-control " type="text" placeholder="Subject"
+                                        name="contact[subject]" id="contact-subject">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group message">
+                                    <textarea class="form-control input-row-3 contact-form " rows="6"
+                                        placeholder="Message" name="contact[message]" id="contact-message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group text-right button-submit btn-submit">
+                                    <button type="submit" class="btn btn-dark button-send">SEND A MESSAGE</button>
+                                    <div class="message-success alert-success alert hidden"><i class="fa fa-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="footer-spacer"></div>
+        {% include footer.html %}
+        <div class="gallery-wrapper"></div>
+
+        {% include preloader.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>

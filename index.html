@@ -1,0 +1,59 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="show-nav nav-center home-page yo-anim-enabled">
+    <div class="content-wrapper">
+        <!--content-->
+
+
+        {% include nav.html %}
+
+
+
+
+        <header id="home" class="main-section home hidden-xs">
+            <div class="home-fullscreen">
+                <div class="container-fluid">
+                </div>
+                <section class="item hidden-xs">
+                    <div class="slider-wrapper">
+                        <div id="slides">
+                            <ul class="slides-container">
+                                <li>
+                                    <img src="/img/ilaputi-Image-home-web.jpg" data-src="" alt="">
+                                </li>
+                                <li>
+                                    <img src="/img/Ilaputi-Interior-Ayala-Facade-Main-02.jpg" data-src="" alt="">
+                                </li>
+                                <li>
+                                    <img src="/img/Ilaputi-Strogaov-Main-03.jpg" data-src="" alt="">
+                                </li>
+                                <li>
+                                    <img src="/img/Ilaputi-Team-Mai-04.jpg" data-src="" alt="">
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+        <div class="visible-xs mobile-basic-info">
+            {% include footer.html %}
+            <div class="home-bg-image"></div>
+        </div>
+
+
+        <div class="gallery-wrapper"></div>
+
+        {% include preloader.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>
